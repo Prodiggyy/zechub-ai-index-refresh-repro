@@ -1,0 +1,57 @@
+{
+  "evidence": "Full Git-verified public documents and original indexing code. SQLite emulates public ID-keyed writes, vectors are stubbed. Counts exact text-matching rows; no semantic ranking, hosted database, or model answer was tested.",
+  "originalRepository": "hyperlander/zechubai@b5acf9822d4201ff4fed7011d75d76058750679c",
+  "correctedRepository": "ZecHub/zechub@0e11df443300c38abc727ffd0c0133d41d99cefd",
+  "pins": {
+    "embedDocs.ts": "67c13c69c0e4c8c7318207107c08146ac8e79934",
+    "chunking.ts": "ae9cfdb3eb40cbdd59d9449f6a8d4965f300a70b",
+    "old-Transactions.md": "27f2ab5eea8e82bf6cfcfcf6ef429a3dc041e8d8",
+    "new-Transactions.md": "0011f64a59625d963c9575eb46d9f5e22a9b5c42",
+    "old-Mobile_Top_Ups.md": "192cf269be36fcf64121e668ea5e2a2cc1730cf3",
+    "new-Mobile_Top_Ups.md": "5fb72f0427c9f85b0b4703bcd5100be1fc15ec69"
+  },
+  "results": {
+    "oldOnly": {
+      "rows": 5,
+      "obsoleteAutoshield": 1,
+      "obsoleteMemo": 1,
+      "replacementAutoshield": 0,
+      "replacementMemo": 0
+    },
+    "documentedRefresh": {
+      "rows": 18,
+      "obsoleteAutoshield": 1,
+      "obsoleteMemo": 1,
+      "replacementAutoshield": 1,
+      "replacementMemo": 1
+    },
+    "cleanRebuildSuccess": {
+      "rows": 13,
+      "obsoleteAutoshield": 0,
+      "obsoleteMemo": 0,
+      "replacementAutoshield": 1,
+      "replacementMemo": 1
+    },
+    "clearInPlaceFailure": {
+      "rows": 3,
+      "obsoleteAutoshield": 0,
+      "obsoleteMemo": 0,
+      "replacementAutoshield": 0,
+      "replacementMemo": 1
+    },
+    "stagedFailureStillServing": {
+      "rows": 5,
+      "obsoleteAutoshield": 1,
+      "obsoleteMemo": 1,
+      "replacementAutoshield": 0,
+      "replacementMemo": 0
+    },
+    "stagedSuccessNowServing": {
+      "rows": 13,
+      "obsoleteAutoshield": 0,
+      "obsoleteMemo": 0,
+      "replacementAutoshield": 1,
+      "replacementMemo": 1
+    }
+  }
+}

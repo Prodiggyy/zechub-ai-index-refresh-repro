@@ -1,0 +1,104 @@
+{
+  "result": "PASS",
+  "meaning": "Exact before/after source correction reproduced for three files touched by PR #2013",
+  "repository": "ZecHub/zechub",
+  "pullRequest": 2013,
+  "mergeDate": "2026-09-06",
+  "firstParent": "42ca5e16d157a1917bf7de73324bd4ae2c69443c",
+  "merge": "8a8ba57a862cb3bb5227e58ff6e951907714d2e6",
+  "changedFilesInPullRequest": 16,
+  "pagesTested": 3,
+  "importerRepository": "hyperlander/zechubai",
+  "importerRevision": "b5acf9822d4201ff4fed7011d75d76058750679c",
+  "results": {
+    "firstParentIndex": {
+      "rows": 8,
+      "withdrawn": 3,
+      "replacement": 0,
+      "byPage": {
+        "site/Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+          "rows": 3,
+          "withdrawn": 1,
+          "replacement": 0
+        },
+        "site/Using_Zcash/Mobile_Top_Ups.md": {
+          "rows": 2,
+          "withdrawn": 1,
+          "replacement": 0
+        },
+        "site/Zcash_Social_Media/Zcash_Addresses.md": {
+          "rows": 3,
+          "withdrawn": 1,
+          "replacement": 0
+        }
+      }
+    },
+    "afterMergeRefresh": {
+      "rows": 16,
+      "withdrawn": 3,
+      "replacement": 3,
+      "byPage": {
+        "site/Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+          "rows": 6,
+          "withdrawn": 1,
+          "replacement": 1
+        },
+        "site/Using_Zcash/Mobile_Top_Ups.md": {
+          "rows": 4,
+          "withdrawn": 1,
+          "replacement": 1
+        },
+        "site/Zcash_Social_Media/Zcash_Addresses.md": {
+          "rows": 6,
+          "withdrawn": 1,
+          "replacement": 1
+        }
+      }
+    },
+    "afterUnchangedRepeat": {
+      "rows": 24,
+      "withdrawn": 3,
+      "replacement": 6,
+      "byPage": {
+        "site/Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+          "rows": 9,
+          "withdrawn": 1,
+          "replacement": 2
+        },
+        "site/Using_Zcash/Mobile_Top_Ups.md": {
+          "rows": 6,
+          "withdrawn": 1,
+          "replacement": 2
+        },
+        "site/Zcash_Social_Media/Zcash_Addresses.md": {
+          "rows": 9,
+          "withdrawn": 1,
+          "replacement": 2
+        }
+      }
+    },
+    "cleanMergeIndex": {
+      "rows": 8,
+      "withdrawn": 0,
+      "replacement": 3,
+      "byPage": {
+        "site/Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+          "rows": 3,
+          "withdrawn": 0,
+          "replacement": 1
+        },
+        "site/Using_Zcash/Mobile_Top_Ups.md": {
+          "rows": 2,
+          "withdrawn": 0,
+          "replacement": 1
+        },
+        "site/Zcash_Social_Media/Zcash_Addresses.md": {
+          "rows": 3,
+          "withdrawn": 0,
+          "replacement": 1
+        }
+      }
+    }
+  },
+  "scope": "Rows matched by literal text within each original page. The published importer and chunker ran locally. Embeddings were stubbed and table writes keyed by ID were simulated. No hosted index, retrieval ranking or AI response was tested."
+}

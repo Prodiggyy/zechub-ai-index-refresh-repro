@@ -1,0 +1,47 @@
+{
+  "result": "PASS",
+  "scope": "Public-source defect reproduction and controlled local feasibility checks",
+  "source_files_verified": 17,
+  "historical_corpus": {
+    "rows_after_append_refresh": 18,
+    "withdrawn_passages_retained": 2,
+    "replacement_passages_present": 2,
+    "rows_served_after_interrupted_clear_and_rebuild": 3,
+    "prior_snapshot_retained_in_staging_simulation": true,
+    "rows_after_successful_staged_rebuild": 13,
+    "withdrawn_passages_after_staged_rebuild": 0
+  },
+  "exact_pr": {
+    "number": 2013,
+    "pages_tested": 3,
+    "withdrawn_after_refresh": 3,
+    "replacements_after_refresh": 3,
+    "rows_after_identical_rerun": 24,
+    "withdrawn_after_clean_rebuild": 0,
+    "replacements_after_clean_rebuild": 3
+  },
+  "warm_reader_on_article": {
+    "rows_with_importer_paths_only": 0,
+    "rows_with_matching_page_key": 1,
+    "negative_control_rows": 0
+  },
+  "sql": {
+    "result": "PASS",
+    "engine": "PGlite",
+    "postgres": "17.5",
+    "pgvector": "0.8.0",
+    "corrected_articles_retrieved_with_expected_citation": 2,
+    "missing_page_matches": 0
+  },
+  "native_two_session_sql": {
+    "result": "PASS",
+    "postgres": "18.6",
+    "pgvector": "0.8.6",
+    "failed_publish_rolled_back": true,
+    "concurrent_read_preserved": true,
+    "published_optional_repair_sqlstate": "0A000"
+  },
+  "hosted_database_queried": false,
+  "real_model_ranking_tested": false,
+  "grant_release_acceptance": "PENDING"
+}

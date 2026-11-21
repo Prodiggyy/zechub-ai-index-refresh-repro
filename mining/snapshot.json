@@ -1,0 +1,11 @@
+{
+  "source": "https://mineornot.com/zec/",
+  "snapshot_utc": "2026-11-20T16:05:00.000Z",
+  "machine": "Antminer Z15 Pro",
+  "hashrate_ksol_s": "840",
+  "power_w": "2780",
+  "electricity_usd_kwh": "0.10",
+  "average_difficulty_millions": "108.90",
+  "displayed_base_miner_reward_zec": "1.25",
+  "displayed_shutdown_usd_per_zec": "65.61"
+}

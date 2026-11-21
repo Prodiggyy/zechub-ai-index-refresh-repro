@@ -1,0 +1,80 @@
+{
+  "result": "PASS",
+  "postgres": "17.5",
+  "pgvector": "0.8.0",
+  "report": {
+    "Transactions": {
+      "original": {
+        "rpcCalls": 0,
+        "count": 2,
+        "topOld": true,
+        "topCorrected": false,
+        "links": [
+          "https://zechub.wiki/Using_Zcash/Transactions",
+          "https://zechub.wiki/Using_Zcash/Mobile_Top_Ups"
+        ]
+      },
+      "legacyAfterSwap": {
+        "rpcCalls": 1,
+        "count": 0,
+        "topOld": false,
+        "topCorrected": false,
+        "links": []
+      },
+      "canonicalAfterSwap": {
+        "rpcCalls": 1,
+        "count": 1,
+        "topOld": false,
+        "topCorrected": true,
+        "links": [
+          "https://zechub.wiki/using-zcash/transactions"
+        ]
+      }
+    },
+    "Mobile_Top_Ups": {
+      "original": {
+        "rpcCalls": 0,
+        "count": 2,
+        "topOld": true,
+        "topCorrected": false,
+        "links": [
+          "https://zechub.wiki/Using_Zcash/Mobile_Top_Ups",
+          "https://zechub.wiki/Using_Zcash/Transactions"
+        ]
+      },
+      "legacyAfterSwap": {
+        "rpcCalls": 1,
+        "count": 0,
+        "topOld": false,
+        "topCorrected": false,
+        "links": []
+      },
+      "canonicalAfterSwap": {
+        "rpcCalls": 1,
+        "count": 1,
+        "topOld": false,
+        "topCorrected": true,
+        "links": [
+          "https://zechub.wiki/using-zcash/mobile-top-ups"
+        ]
+      }
+    }
+  },
+  "homeWithLegacyMetadata": {
+    "rpcCalls": 1,
+    "count": 1,
+    "topOld": false,
+    "topCorrected": true,
+    "links": [
+      "https://zechub.wiki/Using_Zcash/Transactions"
+    ]
+  },
+  "missingSlug": {
+    "rpcCalls": 1,
+    "count": 0,
+    "topOld": false,
+    "topCorrected": false,
+    "links": []
+  },
+  "scope": "One hash-verified upstream chunk per real English article/version. Pinned reader and citation logic call the original SQL function against an in-memory PostgreSQL database via a local query adapter. Vectors are synthetic; hosted API and model not used."
+}

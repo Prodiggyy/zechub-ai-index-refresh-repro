@@ -1,0 +1,34 @@
+{
+  "runtime": "v24.22.3",
+  "pinnedUpstream": "b5acf9822d4201ff4fed7011d75d76058750679c",
+  "fixtureResult": "PASS reproduced old and removed rows",
+  "embeddingService": "mock",
+  "storage": "mock primary-key upsert",
+  "liveDatabaseQueried": false,
+  "history": [
+    {
+      "label": "initial",
+      "rowCount": 2,
+      "additionalRowsSharingAPagePath": 0,
+      "originalRevision": true,
+      "currentRevision": false,
+      "retiredPageCopies": 1
+    },
+    {
+      "label": "unchanged",
+      "rowCount": 4,
+      "additionalRowsSharingAPagePath": 2,
+      "originalRevision": true,
+      "currentRevision": false,
+      "retiredPageCopies": 2
+    },
+    {
+      "label": "edit one page, remove one page",
+      "rowCount": 5,
+      "additionalRowsSharingAPagePath": 3,
+      "originalRevision": true,
+      "currentRevision": true,
+      "retiredPageCopies": 2
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "name": "embedDocs.ts",
+    "blob": "67c13c69c0e4c8c7318207107c08146ac8e79934",
+    "repository": "hyperlander/zechubai",
+    "commit": "b5acf9822d4201ff4fed7011d75d76058750679c",
+    "path": "scripts/embedDocs.ts"
+  },
+  {
+    "name": "chunking.ts",
+    "blob": "ae9cfdb3eb40cbdd59d9449f6a8d4965f300a70b",
+    "repository": "hyperlander/zechubai",
+    "commit": "b5acf9822d4201ff4fed7011d75d76058750679c",
+    "path": "lib/chunking.ts"
+  },
+  {
+    "name": "vectorSearch.ts",
+    "blob": "d3a2f32fdd2feb1904c17bbc03dcfba5bb0b03b3",
+    "repository": "ZecHub/zechub-wiki",
+    "commit": "a4412eb10207d5e69397367a38384d0414700cb5",
+    "path": "src/lib/ai/vectorSearch.ts"
+  },
+  {
+    "name": "old-Transactions.md",
+    "blob": "27f2ab5eea8e82bf6cfcfcf6ef429a3dc041e8d8",
+    "repository": "hyperlander/zechubai",
+    "commit": "b5acf9822d4201ff4fed7011d75d76058750679c",
+    "path": "docs/zechub/Using_Zcash/Transactions.md"
+  },
+  {
+    "name": "new-Transactions.md",
+    "blob": "0011f64a59625d963c9575eb46d9f5e22a9b5c42",
+    "repository": "ZecHub/zechub",
+    "commit": "0e11df443300c38abc727ffd0c0133d41d99cefd",
+    "path": "site/Using_Zcash/Transactions.md"
+  },
+  {
+    "name": "old-Mobile_Top_Ups.md",
+    "blob": "192cf269be36fcf64121e668ea5e2a2cc1730cf3",
+    "repository": "hyperlander/zechubai",
+    "commit": "b5acf9822d4201ff4fed7011d75d76058750679c",
+    "path": "docs/zechub/Using_Zcash/Mobile_Top_Ups.md"
+  },
+  {
+    "name": "new-Mobile_Top_Ups.md",
+    "blob": "5fb72f0427c9f85b0b4703bcd5100be1fc15ec69",
+    "repository": "ZecHub/zechub",
+    "commit": "0e11df443300c38abc727ffd0c0133d41d99cefd",
+    "path": "site/Using_Zcash/Mobile_Top_Ups.md"
+  },
+  {
+    "name": "wiki-ai-route.ts",
+    "blob": "08b94662432aed8064950f5c0f8e9c699a63c293",
+    "repository": "ZecHub/zechub-wiki",
+    "commit": "264384e3212a0cda9c0b9f773ea4d4193e03b9dd",
+    "path": "src/app/api/ai/route.ts"
+  },
+  {
+    "name": "AIAssistant.tsx",
+    "blob": "3436fda4fffaa069b057a10c8d34e2bb2976c5a5",
+    "repository": "ZecHub/zechub-wiki",
+    "commit": "264384e3212a0cda9c0b9f773ea4d4193e03b9dd",
+    "path": "src/components/AIAssistant.tsx"
+  },
+  {
+    "name": "fix_ivfflat.sql",
+    "blob": "f3e92dd2de35343fc51cc35e80a246d5eafb858e",
+    "repository": "hyperlander/zechubai",
+    "commit": "b5acf9822d4201ff4fed7011d75d76058750679c",
+    "path": "sql/fix_ivfflat.sql"
+  },
+  {
+    "name": "schema.sql",
+    "blob": "a931e9daa37934d795817a82c18ba2d67a52c2a5",
+    "repository": "hyperlander/zechubai",
+    "commit": "b5acf9822d4201ff4fed7011d75d76058750679c",
+    "path": "sql/schema.sql"
+  },
+  {
+    "name": "pr2013-before-Who_Can_See_Your_Zcash_Payment.md",
+    "blob": "947237dcd844ddae11077fa7a5f8d050ed17928d",
+    "repository": "ZecHub/zechub",
+    "commit": "42ca5e16d157a1917bf7de73324bd4ae2c69443c",
+    "path": "site/Start_Here/Who_Can_See_Your_Zcash_Payment.md"
+  },
+  {
+    "name": "pr2013-before-Mobile_Top_Ups.md",
+    "blob": "02a80226d9ddea5598b731119d84c9f796ad0855",
+    "repository": "ZecHub/zechub",
+    "commit": "42ca5e16d157a1917bf7de73324bd4ae2c69443c",
+    "path": "site/Using_Zcash/Mobile_Top_Ups.md"
+  },
+  {
+    "name": "pr2013-before-Zcash_Addresses.md",
+    "blob": "4d33e74b6da7012651049ef2a2bf6457ff279557",
+    "repository": "ZecHub/zechub",
+    "commit": "42ca5e16d157a1917bf7de73324bd4ae2c69443c",
+    "path": "site/Zcash_Social_Media/Zcash_Addresses.md"
+  },
+  {
+    "name": "pr2013-after-Who_Can_See_Your_Zcash_Payment.md",
+    "blob": "51e65916f2c7cf08e42daaf4375cfd425adedf4a",
+    "repository": "ZecHub/zechub",
+    "commit": "8a8ba57a862cb3bb5227e58ff6e951907714d2e6",
+    "path": "site/Start_Here/Who_Can_See_Your_Zcash_Payment.md"
+  },
+  {
+    "name": "pr2013-after-Mobile_Top_Ups.md",
+    "blob": "9edd730f58623dee893c6ab578781fc7aaae1862",
+    "repository": "ZecHub/zechub",
+    "commit": "8a8ba57a862cb3bb5227e58ff6e951907714d2e6",
+    "path": "site/Using_Zcash/Mobile_Top_Ups.md"
+  },
+  {
+    "name": "pr2013-after-Zcash_Addresses.md",
+    "blob": "121ee429fa2d93fe5c6db0880aa3157cd097a042",
+    "repository": "ZecHub/zechub",
+    "commit": "8a8ba57a862cb3bb5227e58ff6e951907714d2e6",
+    "path": "site/Zcash_Social_Media/Zcash_Addresses.md"
+  }
+]

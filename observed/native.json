@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "engine": "native-postgres",
+  "postgres": "18.6",
+  "pgvector": "0.8.6",
+  "pinnedUpstreamSqlHashesVerified": true,
+  "originalIndexRepairFailedOwnSmokeTestWith": "0A000",
+  "functionConfigurationClauseRepairPassedSmokeTest": true,
+  "dimensions": 1536,
+  "fixtureRanking": "exact scan, 2 stored rows",
+  "pageContext": "using-zcash/transactions",
+  "storedSourcePath": "zechub/Using_Zcash/Transactions.md",
+  "sourcePathMatchedBeforeUpdate": true,
+  "pageContextRowsBeforeUpdate": 0,
+  "unchangedReaderReturnedOldWhilstStaged": true,
+  "injectedFailureRolledBackPublication": true,
+  "twoSessionsPreservedOldSnapshotThroughCommit": true,
+  "postCommitPageContextReturnedCorrectedRow": true,
+  "stagedRefreshUsedUnmodifiedOriginalRpc": true,
+  "obsoleteRowRemovedAndUnrelatedRowPreserved": true,
+  "staleWriterReplayRejected": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "zcash-wiki-index-review",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=24"},
+  "dependencies": {
+    "@electric-sql/pglite": "0.3.15",
+    "pg": "8.16.3"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "repo": "ZecHub/zechub-wiki@a4412eb10207d5e69397367a38384d0414700cb5",
+  "path": "src/lib/ai/vectorSearch.ts",
+  "blob": "d3a2f32fdd2feb1904c17bbc03dcfba5bb0b03b3",
+  "scope": "Actual reader and cosine logic, synthetic orthogonal 1536-dimensional vectors; mock Supabase row service and RPC. Neither deployed service nor actual vector index was queried.",
+  "results": {
+    "oldGeneration": {
+      "directMatches": [
+        "old"
+      ],
+      "rpcCalls": 0,
+      "chunks": [
+        "old"
+      ],
+      "searchAvailable": true,
+      "outOfScope": false,
+      "totalEmbeddingLoads": 1
+    },
+    "wholeGenerationReplaced": {
+      "directMatches": [],
+      "rpcCalls": 1,
+      "chunks": [
+        "revised"
+      ],
+      "searchAvailable": true,
+      "outOfScope": false,
+      "totalEmbeddingLoads": 1
+    },
+    "sameWarmWorkerSecondRequest": {
+      "directMatches": [],
+      "rpcCalls": 1,
+      "chunks": [
+        "revised"
+      ],
+      "searchAvailable": true,
+      "outOfScope": false,
+      "totalEmbeddingLoads": 1
+    },
+    "wholeGenerationReplacedFallbackFails": {
+      "directMatches": [],
+      "rpcCalls": 1,
+      "chunks": [],
+      "searchAvailable": null,
+      "outOfScope": false,
+      "totalEmbeddingLoads": 1
+    },
+    "newWorkerAfterReplacement": {
+      "directMatches": [
+        "revised"
+      ],
+      "rpcCalls": 0,
+      "chunks": [
+        "revised"
+      ],
+      "searchAvailable": true,
+      "outOfScope": false,
+      "totalEmbeddingLoads": 2
+    },
+    "beforePartialUpdate": {
+      "directMatches": [
+        "old",
+        "unchanged_other_topic"
+      ],
+      "rpcCalls": 0,
+      "chunks": [
+        "old",
+        "unchanged_other_topic"
+      ],
+      "searchAvailable": true,
+      "outOfScope": false,
+      "totalEmbeddingLoads": 3
+    },
+    "partialUpdateWhileWarm": {
+      "directMatches": [
+        "unchanged_other_topic"
+      ],
+      "rpcCalls": 0,
+      "chunks": [],
+      "searchAvailable": true,
+      "outOfScope": true,
+      "totalEmbeddingLoads": 3
+    },
+    "newWorkerAfterPartialUpdate": {
+      "directMatches": [
+        "revised",
+        "unchanged_other_topic"
+      ],
+      "rpcCalls": 0,
+      "chunks": [
+        "revised",
+        "unchanged_other_topic"
+      ],
+      "searchAvailable": true,
+      "outOfScope": false,
+      "totalEmbeddingLoads": 4
+    }
+  }
+}

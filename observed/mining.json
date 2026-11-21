@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "snapshot_utc": "2026-11-20T16:05:00.000Z",
+  "base_miner_share_zec": "0.41666668",
+  "electricity_cost_usd_day": "6.6720",
+  "displayed_model_usd_per_zec": "65.61",
+  "updated_model_usd_per_zec": "196.83",
+  "scope": "Fixed-input electricity estimate only."
+}

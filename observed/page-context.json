@@ -1,0 +1,105 @@
+{
+  "scope": "Pinned reader and citation helpers, real SQL page predicate in SQLite, simulated vectors and row service. No model, live database, HTTP redirect, or localized route tested.",
+  "results": {
+    "original": {
+      "usedFallback": false,
+      "matchPath": null,
+      "ids": [
+        "old-tx",
+        "old-mobile"
+      ],
+      "citations": [
+        "https://zechub.wiki/Using_Zcash/Transactions",
+        "https://zechub.wiki/Using_Zcash/Mobile_Top_Ups"
+      ]
+    },
+    "oldMetadataOnArticle": {
+      "usedFallback": true,
+      "matchPath": "using-zcash/transactions",
+      "ids": [],
+      "citations": []
+    },
+    "oldMetadataOnHome": {
+      "usedFallback": true,
+      "matchPath": null,
+      "ids": [
+        "new-mobile",
+        "new-tx"
+      ],
+      "citations": [
+        "https://zechub.wiki/Using_Zcash/Mobile_Top_Ups",
+        "https://zechub.wiki/Using_Zcash/Transactions"
+      ]
+    },
+    "freshWorkerOnArticle": {
+      "usedFallback": false,
+      "matchPath": null,
+      "ids": [
+        "new-tx",
+        "new-mobile"
+      ],
+      "citations": [
+        "https://zechub.wiki/Using_Zcash/Transactions",
+        "https://zechub.wiki/Using_Zcash/Mobile_Top_Ups"
+      ]
+    },
+    "absoluteUrlAlias": {
+      "usedFallback": true,
+      "matchPath": "using-zcash/transactions",
+      "ids": [],
+      "citations": []
+    },
+    "relativeAlias": {
+      "usedFallback": true,
+      "matchPath": "using-zcash/transactions",
+      "ids": [
+        "new-tx"
+      ],
+      "citations": [
+        "https://zechub.wiki/Using_Zcash/Transactions"
+      ]
+    },
+    "relativeAliasMobile": {
+      "usedFallback": true,
+      "matchPath": "using-zcash/mobile-top-ups",
+      "ids": [
+        "new-mobile"
+      ],
+      "citations": [
+        "https://zechub.wiki/Using_Zcash/Mobile_Top_Ups"
+      ]
+    },
+    "relativeAliasMissing": {
+      "usedFallback": true,
+      "matchPath": "using-zcash/no-such-fixture-page",
+      "ids": [],
+      "citations": []
+    },
+    "canonicalOnArticle": {
+      "usedFallback": true,
+      "matchPath": "using-zcash/transactions",
+      "ids": [
+        "new-tx"
+      ],
+      "citations": [
+        "https://zechub.wiki/using-zcash/transactions"
+      ]
+    },
+    "otherArticle": {
+      "usedFallback": true,
+      "matchPath": "using-zcash/mobile-top-ups",
+      "ids": [
+        "new-mobile"
+      ],
+      "citations": [
+        "https://zechub.wiki/using-zcash/mobile-top-ups"
+      ]
+    },
+    "missingSlug": {
+      "usedFallback": true,
+      "matchPath": "using-zcash/no-such-fixture-page",
+      "ids": [],
+      "citations": []
+    }
+  }
+}
